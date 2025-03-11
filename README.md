@@ -28,8 +28,8 @@ Run migrations: python manage.py migrate
 
 Load JSON data into SQLite: python manage.py shell
 
-> > > from api.load_data import load_json_data
-> > > load_json_data()
+from api.load_data import load_json_data
+load_json_data()
 
 Start the backend server: python manage.py runserver
 
